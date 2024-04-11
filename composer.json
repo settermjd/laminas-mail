@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-mail",
+    "name": "settermjd/laminas-mail",
     "description": "Provides generalized functionality to compose and send both text and MIME-compliant multipart e-mail messages",
     "keywords": [
         "laminas",
@@ -11,7 +11,7 @@
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "ext-iconv": "*",
         "laminas/laminas-loader": "^2.9.0",
-        "laminas/laminas-mime": "^2.11.0",
+        "settermjd/laminas-mime": "^2.11.0",
         "laminas/laminas-stdlib": "^3.17.0",
         "laminas/laminas-validator": "^2.31.0",
         "symfony/polyfill-mbstring": "^1.27.0",
@@ -69,11 +69,12 @@
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     },
     "support": {
-        "issues": "https://github.com/laminas/laminas-mail/issues",
-        "forum": "https://discourse.laminas.dev",
-        "chat": "https://laminas.dev/chat",
-        "source": "https://github.com/laminas/laminas-mail",
-        "docs": "https://docs.laminas.dev/laminas-mail/",
-        "rss": "https://github.com/laminas/laminas-mail/releases.atom"
+        "docs": "https://settermjd.github.io/laminas-mime/",
+        "issues": "https://github.com/settermjd/laminas-mail/issues",
+        "rss": "https://github.com/settermjd/laminas-mail/releases.atom",
+        "source": "https://github.com/settermjd/laminas-mail"
+    },
+    "conflict": {
+        "laminas/laminas-mail":  "*"
     }
 }
